@@ -1,4 +1,3 @@
-import React from 'react';
 import { DateOfBirth } from "./DateOfBirth/DateOfBirth";
 import { GuessNum } from "./GuessNumber/GuessNumber";
 import { RockPaperScirors } from "./RockPaperScirors/RockPaperScirors";
@@ -10,19 +9,17 @@ import { OurTeam } from "./OurTeam/OurTeam";
 import { Scienist } from "./Scienist/Scienist";
 
 export const Layout = () => {
-    return (
-        <>
-        <DateOfBirth/>
-        <GuessNum/>
-        <RockPaperScirors/>
-        <Calculator/>
-        <TimeCalculator/>
-        <Football/>
-        <ThreeNum/>
-        <OurTeam/>
-        <Scienist/>
-        </>
-    );
-}
-
-export default Layout;
+  return (
+    <div>
+      <DateOfBirth />
+      <GuessNum />
+      <RockPaperScirors />
+      <Calculator />
+      <TimeCalculator />
+      <Football />
+      <ThreeNum />
+      <OurTeam />
+      <Scienist />
+    </div>
+  );
+};
